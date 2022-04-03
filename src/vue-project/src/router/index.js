@@ -9,6 +9,7 @@ import ParentComponent from '../views/ParentComponent.vue'
 import Calculator from '../views/Calculator.vue'
 import CompositionAPI from '../views/CompositionAPI.vue'
 import KakaoLogin from '../views/KakaoLogin.vue'
+import StoreAccess from '../views/StoreAccess.vue'
 
 const routes = [
   {
@@ -68,6 +69,11 @@ const routes = [
     path: '/kakaologin',
     name: 'KakaoLogin',
     component: KakaoLogin
+  },
+  {
+    path: '/storeaccess',
+    name: 'StoreAccess',
+    component: StoreAccess
   }
 ]
 
